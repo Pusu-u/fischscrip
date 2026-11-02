@@ -23,7 +23,7 @@ local function checkEventActive()
             local text = descendant.Text:lower()
             if text:find("meteoric outburst") or text:find("supercharged meteor") then
                 return true
-            en
+            end
         end
     end
     
